@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Linguica
+comment1.params=
+comment1.target=Linguica()
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment4.params=
+comment4.target=double\ getPrice()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=
+comment6.target=void\ print()
+numComments=7
