@@ -21,11 +21,11 @@ public class Pizza extends MenuComponent
     }
     
     public String toString(){
-        return "# " + getName() + " " + getDescription() + " - R$ " + getPrice() + " " + (isVegetarian()?"(v)":"");
+        return " # " + getName() + " " + getDescription() + " - R$ " + getPrice() + " " + (isVegetarian()?"(v)":"");
     }
     
     public void print(){
-        System.out.print("#  "+getName());
+        System.out.print(" #  "+getName());
         if(isVegetarian()){
             System.out.print("(v)");
         }

@@ -9,11 +9,5 @@ public class MenuBarRestaurante extends Menu
     
     public String getDescription(){
         return "Organizacao - Luzia e Torrao";
-    }
-    
-    public double getPrice(){
-        return 0;
-    }
-    
-          
+    }    
 }

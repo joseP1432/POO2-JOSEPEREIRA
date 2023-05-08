@@ -47,5 +47,12 @@ public class Menu extends MenuComponent
        }
        return veg;
    }
-      
+   
+   public double getPrice(){
+       double total = 0;
+       for (MenuComponent me:menuComponents){
+           total += me.getPrice();
+       }
+       return total;
+   }
 }

@@ -14,8 +14,4 @@ public class MenuSobremesa extends Menu
     public String getDescription(){
         return "Venha conhecer a melhor doceria da sua cidade! Org. Maria Bonita e Juvenal";
     }
-    
-    public double getPrice(){
-        return 0;
-    }
 }

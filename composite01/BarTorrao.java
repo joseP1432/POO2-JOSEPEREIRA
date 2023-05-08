@@ -6,11 +6,5 @@ public class BarTorrao extends Menu
     
     public String getDescription(){
         return "Cana, tira-gosto e mais nada";
-    }
-    
-    public double getPrice(){
-        return 0;
-    }
-    
-          
+    }    
 }

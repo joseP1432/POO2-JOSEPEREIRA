@@ -24,11 +24,11 @@ public class BemCasado extends MenuComponent
     }
     
     public String toString(){
-        return "# " + getName() + " - R$ " + getPrice() + "  " + getDescription();
+        return " # " + getName() + " - R$ " + getPrice() + "  " + getDescription();
     }
     
     public void print(){
-        System.out.print("#  "+getName());
+        System.out.print(" #  "+getName());
         System.out.print(", R$ "+getPrice());
         System.out.print("     --  "+getDescription());
     }
